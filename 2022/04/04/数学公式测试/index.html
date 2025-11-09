@@ -4,9 +4,11 @@
   <meta name="generator" content="Hexo 5.4.2">
   <meta name="Volantis" content="6.0.0-alpha.1">
   <meta charset="utf-8">
+  <!-- 防gitee防盗链-->
+  <meta name="referrer" content="no-referrer">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://pillowww.github.io/2022/01/06/资源分享/"/>
+  <link rel="canonical" href="https://pillowww.github.io/2022/04/04/数学公式测试/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -34,20 +36,22 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>嘘--小声 - Pillow的赛博小窝>w<</title>
-  <meta name="keywords" content="null">
-  <meta desc name="description" content="仅发布个人兴趣内容,仅供参考与学习使用,请及时删除哦(wink) - Pillow - Pillow的赛博小窝>w<">
+  <title>插件测试 - Pillow的赛博小窝>w<</title>
+  <meta name="keywords" content="示例,网站建设,null">
+  <meta desc name="description" content="个人赛博小窝 - Pillow - Pillow的赛博小窝>w<">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="各类资源整合">
-<meta property="og:url" content="https://pillowww.github.io/2022/01/06/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/index.html">
+<meta property="og:title" content="插件测试">
+<meta property="og:url" content="https://pillowww.github.io/2022/04/04/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/index.html">
 <meta property="og:site_name" content="Pillow的赛博小窝&gt;w&lt;">
-<meta property="og:description" content="仅发布个人兴趣内容,仅供参考与学习使用,请及时删除哦(wink)">
+<meta property="og:description" content="数学公式: 行内公式演示$dst\left( x,y\right) &#x3D;\begin{cases}maxval &amp; if\ src(x, y)\ &gt;\ thresh \ 0\end{cases}$$$\begin{matrix} 1 &amp; 2 &amp; 3 \ 2 &amp; 4 &amp; 6 \ 3 &amp; 8 &amp; 9\end{matrix} \t">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2022-01-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-03-23T11:22:49.677Z">
+<meta property="article:published_time" content="2022-04-03T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-11-09T13:24:23.161Z">
 <meta property="article:author" content="Pillow">
+<meta property="article:tag" content="示例">
+<meta property="article:tag" content="网站建设">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -723,6 +727,158 @@ button {
   -webkit-opacity: 1;
   -moz-opacity: 1;
   border-bottom: 2px solid var(--color-site-inner);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-mode: 'dark';
+  }
+  :root:not([color-scheme]) {
+    --color-site-body: #121212;
+    --color-read-bkg: #1f1f1f;
+    --color-read-post: #262626;
+    --color-site-bg: #1f1f1f;
+    --color-site-inner: rgba(238,238,238,0.871);
+    --color-site-footer: rgba(170,170,170,0.871);
+    --color-card: #262626;
+    --color-text: rgba(238,238,238,0.871);
+    --color-block: #434343;
+    --color-codeblock: #1f1f1f;
+    --color-inlinecode: #d56d28;
+    --color-h1: rgba(255,255,255,0.871);
+    --color-h2: rgba(255,255,255,0.871);
+    --color-h3: rgba(255,255,255,0.6);
+    --color-h4: rgba(255,255,255,0.6);
+    --color-h5: rgba(255,255,255,0.6);
+    --color-h6: rgba(255,255,255,0.6);
+    --color-p: rgba(217,217,217,0.871);
+    --color-list: rgba(217,217,217,0.871);
+    --color-list-hl: #7e8ee9;
+    --color-meta: rgba(191,191,191,0.871);
+    --color-link: rgba(191,191,191,0.871);
+    --color-copyright-bkg: #21252b;
+  }
+  :root:not([color-scheme]) img {
+    filter: brightness(70%) !important;
+  }
+  :root:not([color-scheme]) .blur {
+    background: rgba(31,31,31,0.9) !important;
+  }
+  :root:not([color-scheme]) .white-box.blur {
+    background: rgba(38,38,38,0.9) !important;
+  }
+  :root:not([color-scheme]) .nav-main .u-search-input {
+    background: var(--color-card) !important;
+  }
+  :root:not([color-scheme]) #l_main .article .prev-next>a {
+    background: var(--color-block) !important;
+  }
+  :root:not([color-scheme]) #l_main .article .prev-next>a:hover {
+    background: var(--color-site-bg) !important;
+  }
+  :root:not([color-scheme]) .article blockquote {
+    background: var(--color-block) !important;
+  }
+  :root:not([color-scheme]) .article-title a {
+    color: var(--color-h1) !important;
+  }
+  :root:not([color-scheme]) details>summary {
+    color: var(--color-p) !important;
+    background: var(--color-site-bg) !important;
+  }
+  :root:not([color-scheme]) details {
+    border: 1px solid var(--color-site-bg) !important;
+    background: var(--color-site-bg) !important;
+  }
+  :root:not([color-scheme]) #u-search .modal,
+  :root:not([color-scheme]) #u-search .modal-header,
+  :root:not([color-scheme]) #u-search .modal-body {
+    background: var(--color-card) !important;
+  }
+  :root:not([color-scheme]) #u-search .modal-body .modal-results .result:hover {
+    background: var(--color-block) !important;
+  }
+  :root:not([color-scheme]) .u-search-input:hover {
+    background: var(--color-block) !important;
+  }
+  :root:not([color-scheme]) .u-search-input:focus {
+    background: var(--color-site-body) !important;
+  }
+}
+[color-scheme='dark'] {
+  --color-site-body: #121212;
+  --color-read-bkg: #1f1f1f;
+  --color-read-post: #262626;
+  --color-site-bg: #1f1f1f;
+  --color-site-inner: rgba(238,238,238,0.871);
+  --color-site-footer: rgba(170,170,170,0.871);
+  --color-card: #262626;
+  --color-text: rgba(238,238,238,0.871);
+  --color-block: #434343;
+  --color-codeblock: #1f1f1f;
+  --color-inlinecode: #d56d28;
+  --color-h1: rgba(255,255,255,0.871);
+  --color-h2: rgba(255,255,255,0.871);
+  --color-h3: rgba(255,255,255,0.6);
+  --color-h4: rgba(255,255,255,0.6);
+  --color-h5: rgba(255,255,255,0.6);
+  --color-h6: rgba(255,255,255,0.6);
+  --color-p: rgba(217,217,217,0.871);
+  --color-list: rgba(217,217,217,0.871);
+  --color-list-hl: #7e8ee9;
+  --color-meta: rgba(191,191,191,0.871);
+  --color-link: rgba(191,191,191,0.871);
+  --color-copyright-bkg: #21252b;
+}
+[color-scheme='dark'] img {
+  filter: brightness(70%) !important;
+}
+[color-scheme='dark'] .blur {
+  background: rgba(31,31,31,0.9) !important;
+}
+[color-scheme='dark'] .white-box.blur {
+  background: rgba(38,38,38,0.9) !important;
+}
+[color-scheme='dark'] .nav-main .u-search-input {
+  background: var(--color-card) !important;
+}
+[color-scheme='dark'] #l_main .article .prev-next>a {
+  background: var(--color-block) !important;
+}
+[color-scheme='dark'] #l_main .article .prev-next>a:hover {
+  background: var(--color-site-bg) !important;
+}
+[color-scheme='dark'] .article blockquote {
+  background: var(--color-block) !important;
+}
+[color-scheme='dark'] .article-title a {
+  color: var(--color-h1) !important;
+}
+[color-scheme='dark'] details>summary {
+  color: var(--color-p) !important;
+  background: var(--color-site-bg) !important;
+}
+[color-scheme='dark'] details {
+  border: 1px solid var(--color-site-bg) !important;
+  background: var(--color-site-bg) !important;
+}
+[color-scheme='dark'] #u-search .modal,
+[color-scheme='dark'] #u-search .modal-header,
+[color-scheme='dark'] #u-search .modal-body {
+  background: var(--color-card) !important;
+}
+[color-scheme='dark'] #u-search .modal-body .modal-results .result:hover {
+  background: var(--color-block) !important;
+}
+[color-scheme='dark'] .u-search-input:hover {
+  background: var(--color-block) !important;
+}
+[color-scheme='dark'] .u-search-input:focus {
+  background: var(--color-site-body) !important;
+}
+@media screen and (max-width: 500px) {
+  [color-scheme='dark'] .l_header .m_search {
+    background: var(--color-site-bg) !important;
+  }
 }
 @font-face {
   font-family: 'UbuntuMono';
@@ -1560,10 +1716,21 @@ ul.list-v >li>a:hover {
     padding: 0px;
   }
 }
+@media screen and (prefers-color-scheme: dark) and (max-width: 500px) {
+  .l_header .m_search {
+    background: var(--color-site-bg) !important;
+  }
+}
 
   </style>
   <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all';this.onload=null">
   <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
+    <script>
+      let userColorScheme=localStorage.getItem("color-scheme")
+      if(userColorScheme){
+        document.documentElement.setAttribute("color-scheme", userColorScheme);
+      }
+    </script>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -2004,7 +2171,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1742904937258),
+    lastupdate: new Date(1762695530296),
     cdn: {
       izitoast_css: 'https://unpkg.com/izitoast@1.4.0/dist/css/iziToast.min.css',
       izitoast_js: 'https://unpkg.com/izitoast@1.4.0/dist/js/iziToast.min.js',
@@ -2034,7 +2201,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       },
       
       
-      rightmenus: {"enable":true,"order":["plugins.navigation","hr","plugins.inputBox","plugins.seletctText","plugins.elementCheck","plugins.elementImage","menus.link","hr","menus.darkMode","plugins.articlePage","music"],"options":{"iconPrefix":"fa-solid","articleShowLink":true,"musicAlwaysShow":true},"plugins":{"navigation":[{"id":"left","name":"转到上一页","icon":"fa-solid fa-arrow-left","event":"history.back()","group":"navigation"},{"id":"right","name":"转到下一页","icon":"fa-solid fa-arrow-right","event":"history.forward()","group":"navigation"},{"id":"redo","name":"刷新当前页面","icon":"fa-solid fa-redo","event":"window.location.reload()","group":"navigation"},{"id":"up","name":"回到顶部","icon":"fa-solid fa-arrow-up","event":"VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)","group":"navigation"}],"inputBox":[{"id":"copyPaste","name":"粘贴文本","icon":"fa-solid fa-paste","event":"copyPaste","group":"inputBox"},{"id":"copyAll","name":"全选文本","icon":"fa-solid fa-object-ungroup","event":"copyAll","group":"inputBox"},{"id":"copyCut","name":"剪切文本","icon":"fa-solid fa-cut","event":"copyCut","group":"inputBox"}],"seletctText":[{"id":"copyText","name":"复制文本","icon":"fa-solid fa-copy","event":"copyText","group":"seletctText"},{"id":"searchWord","name":"站内搜索","icon":"fa-solid fa-search","event":"OpenSearch(__text__)","group":"seletctText"},{"id":"bingSearch","name":"必应搜索","icon":"fa-solid fa-search","event":"window.open(`https://cn.bing.com/search?q=${__text__}`)","group":"seletctText"}],"elementCheck":[{"id":"openTab","name":"新标签页打开","icon":"fa-solid fa-external-link-square-alt","event":"window.open(__link__)","group":"elementCheck"},{"id":"copyLink","name":"复制链接地址","icon":"fa-solid fa-link","event":"copyLink","group":"elementCheck"}],"elementImage":[{"id":"copyImg","name":"复制图片","icon":"fa-solid fa-image","event":"copyImg","group":"elementImage"},{"id":"googleImg","name":"谷歌识图","icon":"fa-solid fa-images","event":"window.open(`https://www.google.com.hk/searchbyimage?image_url=${__link__}`)","group":"elementImage"}],"articlePage":[{"id":"printMode","name":"打印页面","icon":"fa-solid fa-print","event":"printMode","group":"articlePage"},{"id":"readMode","name":"阅读模式","icon":"fa-solid fa-book-open","event":"readMode","group":"articlePage"}]},"menus":{"link":["hr",{"id":"source_docs","name":"本站源码","icon":"fa-solid fa-code-branch","link":"https://github.com/volantis-x/volantis-docs/","group":"link"},{"id":"source_theme","name":"主题源码","icon":"fa-solid fa-code-branch","link":"https:/https://github.com/pillowww/pillowww.github.io","group":"link"}],"darkMode":[{"id":"darkMode","name":"暗黑模式","icon":"fa-solid fa-moon","event":"volantis.dark.toggle()","group":"darkMode"}]}}
+      rightmenus: {"enable":true,"order":["plugins.navigation","hr","plugins.inputBox","plugins.seletctText","plugins.elementCheck","plugins.elementImage","menus.link","hr","menus.darkMode","plugins.articlePage","music"],"options":{"iconPrefix":"fa-solid","articleShowLink":true,"musicAlwaysShow":true},"plugins":{"navigation":[{"id":"left","name":"转到上一页","icon":"fa-solid fa-arrow-left","event":"history.back()","group":"navigation"},{"id":"right","name":"转到下一页","icon":"fa-solid fa-arrow-right","event":"history.forward()","group":"navigation"},{"id":"redo","name":"刷新当前页面","icon":"fa-solid fa-redo","event":"window.location.reload()","group":"navigation"},{"id":"up","name":"回到顶部","icon":"fa-solid fa-arrow-up","event":"VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)","group":"navigation"}],"inputBox":[{"id":"copyPaste","name":"粘贴文本","icon":"fa-solid fa-paste","event":"copyPaste","group":"inputBox"},{"id":"copyAll","name":"全选文本","icon":"fa-solid fa-object-ungroup","event":"copyAll","group":"inputBox"},{"id":"copyCut","name":"剪切文本","icon":"fa-solid fa-cut","event":"copyCut","group":"inputBox"}],"seletctText":[{"id":"copyText","name":"复制文本","icon":"fa-solid fa-copy","event":"copyText","group":"seletctText"},{"id":"searchWord","name":"站内搜索","icon":"fa-solid fa-search","event":"OpenSearch(__text__)","group":"seletctText"},{"id":"bingSearch","name":"必应搜索","icon":"fa-solid fa-search","event":"window.open(`https://cn.bing.com/search?q=${__text__}`)","group":"seletctText"}],"elementCheck":[{"id":"openTab","name":"新标签页打开","icon":"fa-solid fa-external-link-square-alt","event":"window.open(__link__)","group":"elementCheck"},{"id":"copyLink","name":"复制链接地址","icon":"fa-solid fa-link","event":"copyLink","group":"elementCheck"}],"elementImage":[{"id":"copyImg","name":"复制图片","icon":"fa-solid fa-image","event":"copyImg","group":"elementImage"},{"id":"googleImg","name":"谷歌识图","icon":"fa-solid fa-images","event":"window.open(`https://www.google.com.hk/searchbyimage?image_url=${__link__}`)","group":"elementImage"}],"articlePage":[{"id":"printMode","name":"打印页面","icon":"fa-solid fa-print","event":"printMode","group":"articlePage"},{"id":"readMode","name":"阅读模式","icon":"fa-solid fa-book-open","event":"readMode","group":"articlePage"}]},"menus":{"link":["hr",{"id":"source_docs","name":"本站源码","icon":"fa-solid fa-code-branch","link":"https:/https://github.com/pillowww/pillowww.github.io","group":"link"},{"id":"source_theme","name":"主题源码","icon":"fa-solid fa-code-branch","link":"https://github.com/volantis-x/volantis-docs/","group":"link"}],"darkMode":[{"id":"darkMode","name":"暗黑模式","icon":"fa-solid fa-moon","event":"volantis.dark.toggle()","group":"darkMode"}]}}
       
     },
     search: {
@@ -2068,7 +2235,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin begin-->
     
     <!-- Custom Files bodyBegin end-->
-    <header itemscope itemtype="https://schema.org.cn/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
+    <header itemscope itemtype="https://schema.org.cn/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2335,85 +2502,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div id="l_body">
       <div id="l_cover">
   
-    
-      <div class="cover-wrapper post search" id='half'>
-        
-  <div class='cover-bg lazyload placeholder' data-bg="https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg"></div>
-
-<div class='cover-body'>
-  <div class='top'>
-    
-    
-      <p class="title">Pillow的赛博空间(装修中)</p>
-    
-    
-      <p class="subtitle">欢迎,智能个体（｀▽´）</p>
-    
-  </div>
-  <div class='bottom'>
-    
-      <div class="m_search">
-        <form name="searchform" class="form u-search-form">
-          <input type="text" class="input u-search-input" placeholder="例:宇宙之眼坐标" />
-          <i class="icon fa-solid fa-search fa-fw"></i>
-        </form>
-      </div>
-    
-    <div class='menu navigation'>
-      <div class='list-h'>
-        
-          
-            <a href="/friends/"
-              
-              
-              active-action="action-friends">
-              <p>友链</p>
-            </a>
-          
-            <a href="/archives/"
-              
-              
-              active-action="action-archives">
-              <p>归档</p>
-            </a>
-          
-            <a href="/categories/"
-              
-              
-              active-action="action-categories">
-              <p>分类</p>
-            </a>
-          
-            <a href="/tags/"
-              
-              
-              active-action="action-tags">
-              <p>标签</p>
-            </a>
-          
-            <a href="/about/"
-              
-              
-              active-action="action-about">
-              <p>关于</p>
-            </a>
-          
-            <a target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/"
-              
-              
-              active-action="action-https:githubcomvolantis-xhexo-theme-volantis">
-              <p>源码</p>
-            </a>
-          
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-      </div>
-    
-  
 </div>
 
       <div id="safearea">
@@ -2421,7 +2509,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="https://schema.org.cn/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://pillowww.github.io/2022/01/06/资源分享/">
+  <link itemprop="mainEntityOfPage" href="https://pillowww.github.io/2022/04/04/数学公式测试/">
   <span hidden itemprop="publisher" itemscope itemtype="https://schema.org.cn/Organization">
     <meta itemprop="name" content="Pillow的赛博小窝>w<">
   </span>
@@ -2442,7 +2530,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        各类资源整合
+        插件测试
       </h1>
       <div class='new-meta-box'>
         
@@ -2464,10 +2552,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   <div class='new-meta-item category'>
     <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
-    <a class="category-link" href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">资源分享</a>
+    <a class="category-link" href="/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/">网站建设</a>
     
       <span hidden itemprop="about" itemscope itemtype="https://schema.org.cn/Thing">
-        <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/" itemprop="url"><span itemprop="name">资源分享</span></a>
+        <a href="/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/" itemprop="url"><span itemprop="name">网站建设</span></a>
       </span>
     
   </div>
@@ -2478,10 +2566,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-01-06T00:00:00+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-04-04T00:00:00+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：Jan 6, 2022</p>
+    <p>发布于：Apr 4, 2022</p>
   </a>
 </div>
 
@@ -2496,7 +2584,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <p>
       <i class="fa-solid fa-eye fa-fw" aria-hidden="true"></i>
       
-      <span data-path="/2022/01/06/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/" class="waline-pageview-count">
+      <span data-path="/2022/04/04/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/" class="waline-pageview-count">
         <i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i>
       </span>
         
@@ -2518,42 +2606,43 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <div class="note radiation red"><p>仅发布个人兴趣内容,仅供参考与学习使用,请及时删除哦(wink)</p></div>
-
-<span id="more"></span>
+    <span id="more"></span>
 <hr>
-<h3 id="影视"><a href="#影视" class="headerlink" title="影视"></a>影视</h3><h4 id="Yes-minister-Yes-prime-minister-不全"><a href="#Yes-minister-Yes-prime-minister-不全" class="headerlink" title="Yes,minister &amp; Yes prime minister(不全)"></a>Yes,minister &amp; Yes prime minister(不全)</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Q5YaRZqFMuuhZUtvyplaDA">https://pan.baidu.com/s/1Q5YaRZqFMuuhZUtvyplaDA</a> 提取码：1111</p></div>
+<p>数学公式:</p>
+<p>行内公式演示$dst\left( x,y\right) &#x3D;\begin{cases}maxval &amp; if\ src(x, y)\ &gt;\ thresh \ 0\end{cases}$<br>$$<br>\begin{matrix}<br> 1 &amp; 2 &amp; 3 \<br> 2 &amp; 4 &amp; 6 \<br> 3 &amp; 8 &amp; 9<br>\end{matrix} \tag{1}<br>$$</p>
+<h4 id="NoteBlock"><a href="#NoteBlock" class="headerlink" title="NoteBlock"></a>NoteBlock</h4><h5 id="经典用法"><a href="#经典用法" class="headerlink" title="经典用法"></a>经典用法</h5><div class="note "><p>可以在配置文件中设置默认样式，为简单的一句话提供最的简便写法。</p></div>
+<div class="note quote"><p>note quote 适合引用一段话</p></div>
+<div class="note info"><p>note info 默认主题色，适合中性的信息</p></div>
+<div class="note warning"><p>note warning 默认黄色，适合警告性的信息</p></div>
+<div class="note danger"><p>note error&#x2F;danger 默认红色，适合危险性的信息</p></div>
+<div class="note success"><p>note done&#x2F;success 默认绿色，适合正确操作的信息</p></div>
 
+<h5 id="更多图标"><a href="#更多图标" class="headerlink" title="更多图标"></a>更多图标</h5><p>这些都是默认样式，可以手动加上颜色：</p>
+<div class="note radiation"><p>note radiation 默认样式</p></div>
+<div class="note radiation yellow"><p>note radiation yellow 可以加上颜色</p></div>
+<div class="note bug red"><p>note bug red 说明还存在的一些故障</p></div>
+<div class="note link green"><p>note link green 可以放置一些链接</p></div>
+<div class="note paperclip blue"><p>note paperclip blue 放置一些附件链接</p></div>
+<div class="note todo"><p>note todo 待办事项</p></div>
+<div class="note guide clear"><p>note guide clear 可以加上一段向导</p></div>
+<div class="note download"><p>note download 可以放置下载链接</p></div>
+<div class="note message gray"><p>note message gray 一段消息</p></div>
+<div class="note up"><p>note up 可以说明如何进行更新</p></div>
 
-<p>YMs1-s3</p>
-<div class="note download"><p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/10dwRWUC_WrJHLSOM5ie_qw">https://pan.baidu.com/s/10dwRWUC_WrJHLSOM5ie_qw</a> 提取码：1111</p></div>
+<h4 id="Timeline"><a href="#Timeline" class="headerlink" title="Timeline"></a>Timeline</h4><div class="timeline"><p class='p h2'>时间线标题（可选）</p>
+<div class="timenode"><div class="meta"><p><p>12PM）</p>
+</p></div><div class="body"><p>睡觉</p></div></div>
 
+<div class="timenode"><div class="meta"><p><p>12AM</p>
+</p></div><div class="body"><p>睡觉</p></div></div>
+</div>
 
-<h4 id="巴瑞（s1-s4）"><a href="#巴瑞（s1-s4）" class="headerlink" title="巴瑞（s1-s4）"></a>巴瑞（s1-s4）</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://www.alipan.com/s/PbJDEnpwU7f">https://www.alipan.com/s/PbJDEnpwU7f</a></p></div>
+<h4 id="基础按钮"><a href="#基础按钮" class="headerlink" title="基础按钮"></a>基础按钮</h4><p>不设置任何参数的 <span class='btn'><a class="button" href='/' title='按钮'>按钮</a></span> 适合融入段落中。</p>
+<p>regular 按钮适合独立于段落之外：</p>
+<span class='btn regular'><a class="button" target="_blank" rel="noopener" href='https://xaoxuu.com' title='示例博客'><i class='fas fa-play-circle'></i>示例博客</a></span>
 
-<h4 id="塔可夫斯基高清修复版（飞向太空-镜子-潜行者-乡愁-牺牲）"><a href="#塔可夫斯基高清修复版（飞向太空-镜子-潜行者-乡愁-牺牲）" class="headerlink" title="塔可夫斯基高清修复版（飞向太空\镜子\潜行者\乡愁\牺牲）"></a>塔可夫斯基高清修复版（飞向太空\镜子\潜行者\乡愁\牺牲）</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://www.alipan.com/s/FgsXcN8tAVB">https://www.alipan.com/s/FgsXcN8tAVB</a></p></div>
-
-
-<h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><h4 id="全职猎人"><a href="#全职猎人" class="headerlink" title="全职猎人"></a>全职猎人</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1mZ6PYSJbaUev8B2YyroO-A?pwd=1111">https://pan.baidu.com/s/1mZ6PYSJbaUev8B2YyroO-A?pwd=1111</a> 提取码：1111</p></div>
-
-<h4 id="辉夜姬物语"><a href="#辉夜姬物语" class="headerlink" title="辉夜姬物语"></a>辉夜姬物语</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://www.alipan.com/s/hHqDS64JJPC">https://www.alipan.com/s/hHqDS64JJPC</a></p></div>
-
-<h4 id="少女革命剧场版-思春期默示录"><a href="#少女革命剧场版-思春期默示录" class="headerlink" title="少女革命剧场版 思春期默示录"></a>少女革命剧场版 思春期默示录</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://www.alipan.com/s/DoxrYTPv7Kc">https://www.alipan.com/s/DoxrYTPv7Kc</a></p></div>
-
-
-<h4 id="银河英雄传说（1988版）"><a href="#银河英雄传说（1988版）" class="headerlink" title="银河英雄传说（1988版）"></a>银河英雄传说（1988版）</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://www.alipan.com/s/Na8ik2RiS8C">https://www.alipan.com/s/Na8ik2RiS8C</a></p></div>
-
-
-<h4 id="机动战士高达Z"><a href="#机动战士高达Z" class="headerlink" title="机动战士高达Z"></a>机动战士高达Z</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://www.alipan.com/s/PoAeML4BwQS">https://www.alipan.com/s/PoAeML4BwQS</a></p></div>
-
-<h3 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h3><h4 id="魔法使之夜"><a href="#魔法使之夜" class="headerlink" title="魔法使之夜"></a>魔法使之夜</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1kQ-6nkA0Ggc4BdpCC45BmQ?pwd=1111">https://pan.baidu.com/s/1kQ-6nkA0Ggc4BdpCC45BmQ?pwd=1111</a></p></div>
-
-
-<h4 id="Ever-17"><a href="#Ever-17" class="headerlink" title="Ever 17"></a>Ever 17</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1tKTZVejJNVWXsdVTT5jbPA?pwd=1111">https://pan.baidu.com/s/1tKTZVejJNVWXsdVTT5jbPA?pwd=1111</a></p></div>
-
-<h4 id="寒蝉鸣泣之时"><a href="#寒蝉鸣泣之时" class="headerlink" title="寒蝉鸣泣之时"></a>寒蝉鸣泣之时</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ufaMeIzuCvbYruWERHWlCg?pwd=1111">https://pan.baidu.com/s/1ufaMeIzuCvbYruWERHWlCg?pwd=1111</a></p></div>
-
-<h4 id="海猫鸣泣之时"><a href="#海猫鸣泣之时" class="headerlink" title="海猫鸣泣之时"></a>海猫鸣泣之时</h4><div class="note download"><p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1QPRSuAmHQ9zX396-k7P6hg?pwd=1111">https://pan.baidu.com/s/1QPRSuAmHQ9zX396-k7P6hg?pwd=1111</a></p></div>
+<p>large 按钮更具有强调作用，建议搭配 center 使用：</p>
+<span class='btn center large'><a class="button" target="_blank" rel="noopener" href='https://volantis.js.org/v3/getting-started/' title='开始使用'><i class='fas fa-download'></i>开始使用</a></span>
 
 
   </div>
@@ -2579,10 +2668,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-03-23T19:22:49+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-11-09T21:24:23+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：Mar 23, 2025</p>
+    <p>更新于：Nov 9, 2025</p>
   </a>
 </div>
 
@@ -2590,6 +2679,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         
           
+  
+  
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%A4%BA%E4%BE%8B/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>示例</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>网站建设</p></a></div>
+  <span hidden itemprop="keywords">示例 网站建设</span>
+  
+
 
         
       
@@ -2601,7 +2697,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer"
           
-          href="http://connect.qq.com/widget/shareqq/index.html?url=https://pillowww.github.io/2022/01/06/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/&title=嘘--小声 - Pillow的赛博小窝>w<&summary=仅发布个人兴趣内容,仅供参考与学习使用,请及时删除哦(wink)"
+          href="http://connect.qq.com/widget/shareqq/index.html?url=https://pillowww.github.io/2022/04/04/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/&title=插件测试 - Pillow的赛博小窝>w<&summary="
           
           >
           
@@ -2613,7 +2709,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer"
           
-          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://pillowww.github.io/2022/01/06/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/&title=嘘--小声 - Pillow的赛博小窝>w<&summary=仅发布个人兴趣内容,仅供参考与学习使用,请及时删除哦(wink)"
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://pillowww.github.io/2022/04/04/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/&title=插件测试 - Pillow的赛博小窝>w<&summary="
           
           >
           
@@ -2625,7 +2721,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer"
           
-          href="http://service.weibo.com/share/share.php?url=https://pillowww.github.io/2022/01/06/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/&title=嘘--小声 - Pillow的赛博小窝>w<&summary=仅发布个人兴趣内容,仅供参考与学习使用,请及时删除哦(wink)"
+          href="http://service.weibo.com/share/share.php?url=https://pillowww.github.io/2022/04/04/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/&title=插件测试 - Pillow的赛博小窝>w<&summary="
           
           >
           
@@ -2692,7 +2788,7 @@ project文...</p>
 
   <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/2022/01/06/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2022/04/04/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/index.html#comments">
     </span>
     <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
@@ -2734,7 +2830,7 @@ project文...</p>
 
 
   <div class='content'>
-      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BD%B1%E8%A7%86"><span class="toc-text">影视</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Yes-minister-Yes-prime-minister-%E4%B8%8D%E5%85%A8"><span class="toc-text">Yes,minister &amp; Yes prime minister(不全)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%B4%E7%91%9E%EF%BC%88s1-s4%EF%BC%89"><span class="toc-text">巴瑞（s1-s4）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A1%94%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA%E9%AB%98%E6%B8%85%E4%BF%AE%E5%A4%8D%E7%89%88%EF%BC%88%E9%A3%9E%E5%90%91%E5%A4%AA%E7%A9%BA-%E9%95%9C%E5%AD%90-%E6%BD%9C%E8%A1%8C%E8%80%85-%E4%B9%A1%E6%84%81-%E7%89%BA%E7%89%B2%EF%BC%89"><span class="toc-text">塔可夫斯基高清修复版（飞向太空\镜子\潜行者\乡愁\牺牲）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%A8%E7%94%BB"><span class="toc-text">动画</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA"><span class="toc-text">全职猎人</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BE%89%E5%A4%9C%E5%A7%AC%E7%89%A9%E8%AF%AD"><span class="toc-text">辉夜姬物语</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%91%E5%A5%B3%E9%9D%A9%E5%91%BD%E5%89%A7%E5%9C%BA%E7%89%88-%E6%80%9D%E6%98%A5%E6%9C%9F%E9%BB%98%E7%A4%BA%E5%BD%95"><span class="toc-text">少女革命剧场版 思春期默示录</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4%EF%BC%881988%E7%89%88%EF%BC%89"><span class="toc-text">银河英雄传说（1988版）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%AB%E9%AB%98%E8%BE%BEZ"><span class="toc-text">机动战士高达Z</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F"><span class="toc-text">游戏</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%AD%94%E6%B3%95%E4%BD%BF%E4%B9%8B%E5%A4%9C"><span class="toc-text">魔法使之夜</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Ever-17"><span class="toc-text">Ever 17</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%92%E8%9D%89%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6"><span class="toc-text">寒蝉鸣泣之时</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B5%B7%E7%8C%AB%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6"><span class="toc-text">海猫鸣泣之时</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#NoteBlock"><span class="toc-text">NoteBlock</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%BB%8F%E5%85%B8%E7%94%A8%E6%B3%95"><span class="toc-text">经典用法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9B%B4%E5%A4%9A%E5%9B%BE%E6%A0%87"><span class="toc-text">更多图标</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Timeline"><span class="toc-text">Timeline</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%E6%8C%89%E9%92%AE"><span class="toc-text">基础按钮</span></a></li></ol>
   </div>
 </section>
 
@@ -2989,7 +3085,7 @@ project文...</p>
 
 
   <li class="menuLoad-Content">
-    <a class="vlts-menu fix-cursor-default" id="source_docs" target="_blank" rel="noopener" href="https://github.com/volantis-x/volantis-docs/" data-group="link">
+    <a class="vlts-menu fix-cursor-default" id="source_docs" target="_blank" rel="noopener" href="https:/https://github.com/pillowww/pillowww.github.io" data-group="link">
       <i class="fa-solid fa-code-branch fa-fw"></i>
       本站源码
     </a>
@@ -2998,7 +3094,7 @@ project文...</p>
 
 
   <li class="menuLoad-Content">
-    <a class="vlts-menu fix-cursor-default" id="source_theme" target="_blank" rel="noopener" href="https:/https://github.com/pillowww/pillowww.github.io" data-group="link">
+    <a class="vlts-menu fix-cursor-default" id="source_theme" target="_blank" rel="noopener" href="https://github.com/volantis-x/volantis-docs/" data-group="link">
       <i class="fa-solid fa-code-branch fa-fw"></i>
       主题源码
     </a>
@@ -3173,6 +3269,121 @@ project文...</p>
 
 
 <!-- rightmenu要在darkmode之前（ToggleButton） darkmode要在comments之前（volantis.dark.push）-->
+
+  <script>
+const rootElement = document.documentElement;
+const darkModeStorageKey = "color-scheme";
+const rootElementDarkModeAttributeName = "color-scheme";
+const setLS = (k, v) => {
+    localStorage.setItem(k, v);
+};
+const removeLS = (k) => {
+    localStorage.removeItem(k);
+};
+const getLS = (k) => {
+    return localStorage.getItem(k);
+};
+const getModeFromCSSMediaQuery = () => {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
+const resetRootDarkModeAttributeAndLS = () => {
+  rootElement.removeAttribute(rootElementDarkModeAttributeName);
+  removeLS(darkModeStorageKey);
+};
+const validColorModeKeys = {
+  dark: true,
+  light: true,
+};
+const applyCustomDarkModeSettings = (mode) => {
+  const currentSetting = mode || getLS(darkModeStorageKey);
+  getCustomDarkMode();
+  if (currentSetting === getModeFromCSSMediaQuery()) {
+    resetRootDarkModeAttributeAndLS();
+  } else if (validColorModeKeys[currentSetting]) {
+    rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
+  } else {
+    resetRootDarkModeAttributeAndLS();
+  }
+};
+const invertDarkModeObj = {
+  dark: "light",
+  light: "dark",
+};
+/**
+ * get target mode
+ */
+ const getCustomDarkMode = () => {
+  let currentSetting = getLS(darkModeStorageKey);
+  if (validColorModeKeys[currentSetting]) {
+    currentSetting = invertDarkModeObj[currentSetting];
+  } else if (currentSetting === null) {
+    currentSetting = invertDarkModeObj[getModeFromCSSMediaQuery()];
+  } else {
+    return;
+  }
+  if(currentSetting=="dark"){
+    volantis.dark.mode="light";
+  }else{
+    volantis.dark.mode="dark";
+  }
+  // console.log(volantis.dark.mode)
+};
+const toggleCustomDarkMode = () => {
+  let currentSetting = getLS(darkModeStorageKey);
+  if (validColorModeKeys[currentSetting]) {
+    currentSetting = invertDarkModeObj[currentSetting];
+  } else if (currentSetting === null) {
+    currentSetting = invertDarkModeObj[getModeFromCSSMediaQuery()];
+  } else {
+    return;
+  }
+  setLS(darkModeStorageKey, currentSetting);
+  return currentSetting;
+};
+/**
+ * 暗黑模式触发器
+ */
+volantis.dark.toggle=()=>{
+  const mode = toggleCustomDarkMode();
+  applyCustomDarkModeSettings(mode);
+  // 使用 volantis.dark.push 方法传入volantis.dark.toggle回调函数 参见layout/_partial/scripts/global.ejs
+  volantis.dark.method.toggle.start();
+}
+/**
+ * bind event for toggle button
+ */
+
+function bindToggleButton() {
+  var btn= document.querySelectorAll("#wrapper .toggle-mode-btn,#rightmenu-wrapper .toggle-mode-btn")
+  btn.forEach(function (e) {
+    volantis.dom.$(e).on('click',volantis.dark.toggle);
+  })
+}
+applyCustomDarkModeSettings();
+document.addEventListener("DOMContentLoaded", ()=>{
+  volantis.requestAnimationFrame(bindToggleButton)
+});
+
+const darkModelListeners={
+  dark:(mediaQueryList )=>{
+    if(mediaQueryList.matches){
+      volantis.dark.mode = "dark";
+    }
+    volantis.dark.method.toggle.start();
+  },
+  light:(mediaQueryList)=>{
+    if(mediaQueryList.matches){
+      volantis.dark.mode = "light";
+    }
+    volantis.dark.method.toggle.start();
+  }
+}
+window.matchMedia('(prefers-color-scheme: dark)').addListener(darkModelListeners.dark)
+window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListeners.light)
+</script>
+
 
 
 
@@ -3504,6 +3715,60 @@ project文...</p>
 
 
 
+        <script>
+  // https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/math/mathjax.swig
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = "https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.js";
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    // 文章章节标题不能为 “MathJax” ，否则会报错。
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typesetPromise();
+  }
+</script>
+
+
+
 
 <script>
   function listenSidebarTOC() {
@@ -3638,7 +3903,7 @@ project文...</p>
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"https://schema.org.cn","@type":"Organization","name":"Pillow的赛博小窝>w<","url":"https://pillowww.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"https://schema.org.cn","@type":"Person","name":"Pillow","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://pillowww.github.io/","sameAs":["https://github.com/volantis-x"],"description":"个人赛博小窝"},{"@context":"https://schema.org.cn","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://pillowww.github.io/","name":"Pillow的赛博小窝>w<"}},{"@type":"ListItem","position":2,"item":{"@id":"https://pillowww.github.io/categories/资源分享/","name":"资源分享"}},{"@type":"ListItem","position":3,"item":{"@id":"https://pillowww.github.io/2022/01/06/资源分享/","name":"各类资源整合"}}]},{"@context":"https://schema.org.cn","@type":"WebSite","name":"Pillow的赛博小窝>w<","url":"https://pillowww.github.io/","keywords":null,"description":"个人赛博小窝","author":{"@type":"Person","name":"Pillow","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://pillowww.github.io/","description":"个人赛博小窝"},"publisher":{"@type":"Organization","name":"Pillow的赛博小窝>w<","url":"https://pillowww.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://pillowww.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"https://schema.org.cn","@type":"BlogPosting","headline":"各类资源整合","description":"仅发布个人兴趣内容,仅供参考与学习使用,请及时删除哦(wink)","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https://pillowww.github.io/2022/01/06/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"},"author":{"@type":"Person","name":"Pillow","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://pillowww.github.io/"},"publisher":{"@type":"Organization","name":"Pillow的赛博小窝>w<","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://pillowww.github.io/2022/01/06/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/","wordCount":32,"datePublished":"2022-01-05T16:00:00.000Z","dateModified":"2025-03-23T11:22:49.677Z","articleSection":"资源分享","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"https://schema.org.cn","@type":"Organization","name":"Pillow的赛博小窝>w<","url":"https://pillowww.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"https://schema.org.cn","@type":"Person","name":"Pillow","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://pillowww.github.io/","sameAs":["https://github.com/volantis-x"],"description":"个人赛博小窝"},{"@context":"https://schema.org.cn","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://pillowww.github.io/","name":"Pillow的赛博小窝>w<"}},{"@type":"ListItem","position":2,"item":{"@id":"https://pillowww.github.io/categories/网站建设/","name":"网站建设"}},{"@type":"ListItem","position":3,"item":{"@id":"https://pillowww.github.io/2022/04/04/数学公式测试/","name":"插件测试"}}]},{"@context":"https://schema.org.cn","@type":"WebSite","name":"Pillow的赛博小窝>w<","url":"https://pillowww.github.io/","keywords":null,"description":"个人赛博小窝","author":{"@type":"Person","name":"Pillow","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://pillowww.github.io/","description":"个人赛博小窝"},"publisher":{"@type":"Organization","name":"Pillow的赛博小窝>w<","url":"https://pillowww.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://pillowww.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"https://schema.org.cn","@type":"BlogPosting","headline":"插件测试","description":"个人赛博小窝","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https://pillowww.github.io/2022/04/04/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/"},"author":{"@type":"Person","name":"Pillow","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://pillowww.github.io/"},"publisher":{"@type":"Organization","name":"Pillow的赛博小窝>w<","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://pillowww.github.io/2022/04/04/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/","wordCount":0,"datePublished":"2022-04-03T16:00:00.000Z","dateModified":"2025-11-09T13:24:23.161Z","articleSection":"网站建设","keywords":"示例,网站建设","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
